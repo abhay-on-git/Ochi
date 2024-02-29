@@ -2,6 +2,7 @@ import React from 'react'
 import  Navbar  from "./components/Navbar";
 import  Page1 from "./components/pg1"
 import Marquee from './components/Marquee';
+import About from './components/About';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Page1 />
       <Marquee/>
+      <About/>
     </div>
   )
 }
