@@ -3,7 +3,7 @@ import React from 'react'
 function Featured() {
   return (
     <div className='relative w-full min-h-screen bg-zinc-100'>
-        <h1 className='text-[4vw] border-b px-12 pt-16 pb-10 border-zinc-500 '>Featured Projects</h1>
+        <h1 className='text-[6vw] font-light font-["founders"] border-b px-12 pt-16 pb-10 border-zinc-500 '>Featured Projects</h1>
         <div className="cards-container-parent w-full h-screen flex gap-5 px-12 pt-16">
             <div className="card-container-out rounded-xl overflow-hidden w-1/2 h-full">
                 <div className='card-container  rounded-xl overflow-hidden w-full h-[90%]'>
