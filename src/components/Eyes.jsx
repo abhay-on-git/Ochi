@@ -19,8 +19,8 @@ function Eyes() {
    })
 
   return (
-    <div className='w-full h-screen bg-red-500 overflow-hidden '>
-        <div className='relative w-full h-full bg-cover bg-center bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)]'>
+    <div className='w-full h-screen overflow-hidden '>
+        <div data-scroll data-scroll-speed="-.6" className='relative w-full h-full bg-cover bg-center bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)]'>
             <div className='eye-continer absolute flex gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                <div className='eye1 relative w-[12vmax] h-[12vmax] rounded-full bg-zinc-100'>
                   <div style={{transform : `translate(-50%,-50%) rotate(${rotate}deg)`}} className='eye2-container absolute w-[90%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
