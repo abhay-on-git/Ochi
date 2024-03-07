@@ -7,6 +7,7 @@ import Eyes from './components/Eyes';
 import Featured from './components/Featured';
 import Cards from './components/Cards';
 import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Featured/>
       <Cards />
       <Project/>
+      <Footer/>
     </div>
   )
 }

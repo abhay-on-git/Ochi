@@ -12,7 +12,7 @@ function About() {
                     <div className='w-2 h-2 ml-5 bg-slate-50 rounded-full'></div>
                 </div>
              </div>
-             <div className='w-1/2 h-[30vmax] rounded-lg bg-[#8b946c]'></div>
+             <div className='w-1/2 h-[30vmax] rounded-lg bg-[#8b946c] bg-[url(https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg)] bg-center bg-cover'></div>
         </div>
     </div>
   )
