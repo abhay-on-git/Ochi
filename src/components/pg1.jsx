@@ -1,14 +1,15 @@
+import { easeInOut, motion } from 'framer-motion';
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
 function pg1() {
   return (
-    <div className='w-full min-h-dvh bg-slate-200 pt-1'>
+    <div data-scroll data-scroll-speed="-0.5" className='w-full min-h-dvh bg-slate-200 pt-1'>
        <div className="text-structure mt-40 px-12">
        {["WE CREATE","EYE OPENING","PRESENTATIONS"].map((item,index)=>{
         return <div className="masker">
             <div className="masker-in pb-[0.5vw] w-fit flex items-end overflow-hidden">
                 {index === 1 && (
-                    <div className='mr-3 w-[8vw] rounded-md h-[5.7vw] relative bg-green-500'></div>
+                    <motion.div initial={{width:0}} animate={{width:"8vw"}} transition={{ease:[0.76, 0, 0.24, 1],duration:1}} className='mr-3 w-[8vw] rounded-md h-[5.7vw] relative bg-green-500'></motion.div>
                 )}
                 <h1 className=' -mb-[1vw] uppercase text-[9vw] font-semibold leading-[8vw] font-["founders"]'>{item}</h1>
             </div>
