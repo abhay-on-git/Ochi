@@ -22,7 +22,7 @@ function pg1() {
             <h2 className='text-lg'>From the first pitch to IPO</h2>
            </div>
            <div className="pg1p2-R flex items-center justify-between">
-            <div className="btn uppercase border px-4 py-1 rounded-full border-zinc-900">start the project</div>
+            <div className="btn uppercase border px-4 py-1 rounded-full hover:text-[#ffffff] hover:bg-zinc-900 transition-colors cursor-pointer border-zinc-900">start the project</div>
             <div className="btn-arrow border p-2 rounded-full ml-2 border-zinc-900 "><MdArrowOutward /></div>
            </div>
        </div>

@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <div className="links flex gap-10 ">
             {["Services","Our Work","About Us","Insights", "Contact us"].map((item,index)=>(
-                <a key={index} className={`text-md capitalize font-regular ${index === 4 && "ml-32"}`}>{item}</a>
+                <a key={index} className={`text-md capitalize font-regular hover:text-[#9c8282] cursor-pointer ${index === 4 && "ml-32"}`}>{item}</a>
             ))}
         </div>
     </div>
