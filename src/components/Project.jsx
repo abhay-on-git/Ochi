@@ -26,7 +26,7 @@ function Project() {
         <button className='bg-black text-white px-20 py-4 text-[1.2vw] mt-10 rounded-full'>Start The Project</button>
 
               
-        <div className='eye-continer absolute flex gap-10 top-[35%] left-1/2 -translate-x-1/2 -translate-y-1/2'>
+        <div data-scroll data-scroll-section data-scroll-speed="0.3" className='eye-continer absolute flex gap-10 top-[35%] left-3/2 -translate-x-1/2 -translate-y-1/2'>
                <div className='eye1 relative w-[12vmax] h-[12vmax] rounded-full bg-zinc-100'>
                   <div style={{transform : `translate(-50%,-50%) rotate(${rotate}deg)`}} className='eye2-container absolute w-[90%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                      <div className='eye2 relative w-[8vmax] h-[8vmax] rounded-full bg-zinc-900'>
