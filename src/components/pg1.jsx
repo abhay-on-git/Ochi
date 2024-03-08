@@ -9,7 +9,7 @@ function pg1() {
         return <div className="masker">
             <div className="masker-in pb-[0.5vw] w-fit flex items-end overflow-hidden">
                 {index === 1 && (
-                    <motion.div initial={{width:0}} animate={{width:"8vw"}} transition={{ease:[0.76, 0, 0.24, 1],duration:1}} className='mr-3 w-[8vw] rounded-md h-[5.7vw] relative bg-green-500'></motion.div>
+                    <motion.div initial={{width:0}} animate={{width:"8vw"}} transition={{ease:[0.76, 0, 0.24, 1],duration:1}} className='mr-3 w-[8vw] rounded-md h-[5.7vw] relative bg-[url(https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg)] bg-center bg-cover bg-green-500'></motion.div>
                 )}
                 <h1 className=' -mb-[1vw] uppercase text-[9vw] font-semibold leading-[8vw] font-["founders"]'>{item}</h1>
             </div>
